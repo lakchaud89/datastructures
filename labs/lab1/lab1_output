@@ -1,0 +1,66 @@
+Last login: Thu May 18 16:19:41 on ttys000
+➜  ~ cd ..
+➜  /Users cd ~
+➜  ~ pwd
+/Users/lakshmi
+➜  ~ cd Desktop 
+➜  Desktop cd datastructures 
+➜  datastructures git:(master) ✗ cd labs 
+➜  labs git:(master) ✗ cd lab1 
+➜  lab1 git:(master) ✗ emacs
+➜  lab1 git:(master) ✗ javac Names.java
+Names.java:28: error: ';' expected
+    System.out.println()
+                        ^
+1 error
+➜  lab1 git:(master) ✗ javac Names.java
+Names.java:33: error: cannot find symbol
+    System.out.println(first.toUpperCase() + " " + last.toUpperCase);
+                                                       ^
+  symbol:   variable toUpperCase
+  location: variable last of type String
+1 error
+➜  lab1 git:(master) ✗ javac Names.java
+➜  lab1 git:(master) ✗ java Names
+
+John Fitzgerald Kennedy 
+JFK
+Kennedy, John Fitzgerald
+Kennedy, John F.
+JOHN KENNEDY
+John equals john is false
+John equals john (ignoring case) is true
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(String.java:1967)
+	at Names.main(Names.java:39)
+➜  lab1 git:(master) ✗ javac Names.java
+➜  lab1 git:(master) ✗ java Names      
+
+John Fitzgerald Kennedy 
+JFK
+Kennedy, John Fitzgerald
+Kennedy, John F.
+JOHN KENNEDY
+John equals john is false
+John equals john (ignoring case) is true
+The character at index 3 in Fitzgerald is z
+The index of "gerald" within Fitzgerald is 4
+The index of "gerald" within Kennedy is -1
+
+➜  lab1 git:(master) ✗ java NAMES
+Error: Could not find or load main class NAMES
+➜  lab1 git:(master) ✗ javac Names.java
+➜  lab1 git:(master) ✗ java NAMES      
+
+John Fitzgerald Kennedy 
+JFK
+Kennedy, John Fitzgerald
+Kennedy, John F.
+JOHN KENNEDY
+John equals john is false
+John equals john (ignoring case) is true
+The character at index 3 in Fitzgerald is z
+The index of "gerald" within Fitzgerald is 4
+The index of "gerald" within Kennedy is -1
+
+➜  lab1 git:(master) ✗ 
